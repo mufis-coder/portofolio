@@ -56,11 +56,10 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-white texxt-base md:text-lg">
-                        I am a back end web developer. I have experience
-                        working with Java, Python, SpringBoot, flask, tensorflow, PostgreSQL,
-                        HTML, CSS, and Git. I am a quick learner and I am always
-                        looking to expand my knowledge and skill set. I am a team player and
-                        I am excited to work with others to create amazing applications.
+                      I'm M Fikri Sunandar, i'm a back end web developer. 
+                      I have experience working with Java, Python, SpringBoot, Flask, Tensorflow, 
+                      PostgreSQL, and Git. Beside that, I'm also interested in Data Science and 
+                      Artificial intelligence. I am open to all opportunities that are good for me.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton

@@ -29,8 +29,7 @@ const HeroSection = () => {
                 />
             </h1>
             <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                voluptatum.
+                Backend Developer | ML/AI | Python | Java | Springboot
             </p>
             <div>
                 <button className="bg-gradient-to-br from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
