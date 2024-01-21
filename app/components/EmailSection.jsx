@@ -46,7 +46,7 @@ const EmailSection = () => {
     () => {
         setInterval(() => {
             setEmailSubmitted(false);
-        }, 5000);
+        }, 7000);
     },
     [emailSubmitted]
   );
@@ -59,7 +59,7 @@ const EmailSection = () => {
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
         <div className="z-10">
             <h5 className="text-xl font-bold text-white my-2">
-                Let`&apos;s Connect
+                Let&apos;s Connect
             </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
@@ -125,13 +125,13 @@ const EmailSection = () => {
                     />
                 </div>
                 {emailSubmitted ? (
-                    <p className="text-green-500 text-sm mt-0">
+                    <p className="text-green-500 text-sm mt-0 mb-3">
                         Email sent successfully!
                     </p>
                 ) : ('')}
                 <button
                     type="submit"
-                    className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                    className="bg-sky-500 hover:bg-sky-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
                 >
                     Send Message
                 </button>
