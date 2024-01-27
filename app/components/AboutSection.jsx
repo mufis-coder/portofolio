@@ -56,10 +56,10 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-white texxt-base md:text-lg">
-                      I'm M Fikri Sunandar, a back-end web developer with experience in Java, 
+                      I&apos;m M Fikri Sunandar, a back-end web developer with experience in Java, 
                       Python, SpringBoot, Flask, Tensorflow, PostgreSQL, and Git. 
-                      Additionally, I've a keen interest in Data Science and Artificial Intelligence. 
-                      I'm open to exploring opportunities that align with my skills and goals.
+                      Additionally, I&apos;ve a keen interest in Data Science and Artificial Intelligence. 
+                      I&apos;m open to exploring opportunities that align with my skills and goals.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton

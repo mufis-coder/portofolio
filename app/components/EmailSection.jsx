@@ -63,7 +63,7 @@ const EmailSection = () => {
             </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
-                I'm currently seeking new opportunities, and my inbox is always open. 
+                I&apos;m currently seeking new opportunities, and my inbox is always open. 
                 Whether you have a question or simply want to say hi, I will do my best to respond to you!
             </p>
             <div className="socials flex flex-row gap-2">

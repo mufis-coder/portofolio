@@ -17,7 +17,7 @@ const HeroSection = () => {
                 >
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-                        Hello, I'm{" "}
+                        Hello, I&apos;m{" "}
                     </span>{" "}
                     <br></br>
                     <TypeAnimation
@@ -40,7 +40,7 @@ const HeroSection = () => {
                     Nurturing Skills in Backend Development, AI, ML, and Data Science.
                 </p>
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                    Crafting Tomorrow's Tech with Passion and Progress.
+                    Crafting Tomorrow&apos;s Tech with Passion and Progress.
                 </p>
                 <div>
                     <Link
