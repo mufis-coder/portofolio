@@ -63,9 +63,8 @@ const EmailSection = () => {
             </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
-                I&apos;m currently looking for new opportunities, my inbox is always
-                open. Whether you have a question or just want to say hi, I&apos;ll
-                try my best to get back to you!
+                I'm currently seeking new opportunities, and my inbox is always open. 
+                Whether you have a question or simply want to say hi, I will do my best to respond to you!
             </p>
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/mufis-coder" target="_blank">
@@ -91,7 +90,7 @@ const EmailSection = () => {
                         id="email"
                         required
                         className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="jacob@google.com"
+                        placeholder="kevin@gmail.com"
                     />
                 </div>
                 <div className="mb-6">

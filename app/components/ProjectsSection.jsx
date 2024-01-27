@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Edcrypt Web App",
-    description: "Web application to encrypt and decrypt your messages",
+    description: "Web application to encrypt and decrypt your messages.",
     image: "/images/projects/01.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mufis-coder/edcrypt-web",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Image Registration",
-    description: "Image registration to find the best parameters of the target image",
+    description: "Image registration to find the best parameters of the target image.",
     image: "/images/projects/02.jpg",
     tag: ["All", "Algo"],
     gitUrl: "https://github.com/mufis-coder/image_regist",

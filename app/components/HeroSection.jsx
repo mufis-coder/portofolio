@@ -36,8 +36,11 @@ const HeroSection = () => {
                         repeat={Infinity}
                     />
                 </h1>
+                <p className="text-[#ADB7BE] textl-lg lg:text-xl">
+                    Nurturing Skills in Backend Development, AI, ML, and Data Science.
+                </p>
                 <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                    Backend Developer | ML/AI | Python | Java | Springboot
+                    Crafting Tomorrow's Tech with Passion and Progress.
                 </p>
                 <div>
                     <Link
