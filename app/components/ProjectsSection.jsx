@@ -22,6 +22,51 @@ const projectsData = [
     tag: ["All", "Algo"],
     gitUrl: "https://github.com/mufis-coder/image_regist",
     previewUrl: "https://pypi.org/project/image-regist/",
+  },
+  {
+    id: 3,
+    title: "Microservice Network",
+    description: "Microservice implementation using Java Spring Boot.",
+    image: "/images/projects/03.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mufis-coder/fp-bni-altera?tab=readme-ov-file",
+    previewUrl: "https://github.com/mufis-coder/fp-bni-altera?tab=readme-ov-file",
+  },
+  {
+    id: 4,
+    title: "Flappy Bird AI",
+    description: "Flappy Bird game where each birds is trained by AI to find the best birds.",
+    image: "/images/projects/04.gif",
+    tag: ["All", "AI"],
+    gitUrl: "https://github.com/mufis-coder/mandiri-datascience-flappybird-ai",
+    previewUrl: "https://github.com/mufis-coder/mandiri-datascience-flappybird-ai",
+  },
+  {
+    id: 5,
+    title: "Photo Mosaic",
+    description: "Algorithm for creating a mosaic of images that form an image.",
+    image: "/images/projects/05.gif",
+    tag: ["All", "Algo"],
+    gitUrl: "https://github.com/mufis-coder/M-Project-Photo-Mosaic",
+    previewUrl: "https://github.com/mufis-coder/M-Project-Photo-Mosaic",
+  },
+  {
+    id: 6,
+    title: "Flappy Bird Online",
+    description: "Online flappy bird game that can be played by two person.",
+    image: "/images/projects/06.jpg",
+    tag: ["All", "Algo"],
+    gitUrl: "https://github.com/mufis-coder/fp-progjar",
+    previewUrl: "https://github.com/mufis-coder/fp-progjar",
+  },
+  {
+    id: 7,
+    title: "Fakenews Classifier",
+    description: "Algorithm for classifying news into fake or true news.",
+    image: "/images/projects/07.png",
+    tag: ["All", "Web", "AI"],
+    gitUrl: "https://github.com/mufis-coder/lomba-satriadata_2020-fakenews-classifier",
+    previewUrl: "https://github.com/mufis-coder/mandiri-fakenews-classifier-site",
   }
 ];
 
@@ -63,6 +108,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Algo"
           isSelected={tag === "Algo"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="AI"
+          isSelected={tag === "AI"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
